@@ -45,9 +45,6 @@ header nav ul li a {
 /* HEADER STYLES END */
 
 /* HERO STYLES */
-.hero {
-}
-
 .hero img {
     margin-right: 10px;
     width: 100%;
@@ -55,3 +52,39 @@ header nav ul li a {
 /* HERO STYLES END */
 
 /* INFORMATION STYLES SECTION */
+
+.information {
+    background-color: slategray;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.information div {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.information h2 {
+    font-size: 28;
+    font-weight: bold;
+}
+
+.about-me {
+    height: 75px;
+    width: 100%;
+}
+
+.about-me p {
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.work {
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+
+.workitems {
+    align-items: center;
+}
